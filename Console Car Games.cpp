@@ -15,9 +15,9 @@ int enemyY[3];
 int enemyX[3];
 int enemyFlag[3];
 char car[4][4] = {' ','#','#',' ',
-					'#','#','#','#',
-					' ','#','#',' ',
-					'#','#','#','#' };
+				'#','#','#','#',
+				' ','#','#',' ',
+				'#','#','#','#' };
 
 int carPos = WIN_WIDTH/2;
 int score = 0;
@@ -39,12 +39,12 @@ void setcursor(bool visible, DWORD size) {
 void Border(){
 	for(int i=0; i<SCREEN_HEIGHT; i++){
 		for(int j=0; j<17; j++){
-			shoxy(0+j,i); cout<<"±";
-			shoxy(WIN_WIDTH-j,i); cout<<"±";
+			shoxy(0+j,i); cout<<"#";
+			shoxy(WIN_WIDTH-j,i); cout<<"#";
 		}
 	}
 	for(int i=0; i<SCREEN_HEIGHT; i++){
-		shoxy(SCREEN_WIDTH,i); cout<<"±";
+		shoxy(SCREEN_WIDTH,i); cout<<"#";
 	}
 }
 void genEnemy(int ind){
@@ -88,13 +88,18 @@ void eraseCar(){
 }
 
 int collision(){
-	if( enemyY[0]+4 >= 23 ){
-		if( enemyX[0] + 4 - carPos >= 0 && enemyX[0] + 4 - carPos < 9  ){
-			return 1;
+	for (int i = 0; i < 2; i++) {
+		if (enemyFlag[i] == true) {
+			if (enemyY[i] + 4 >= 22 && enemyY[i] <= 25) {
+				if (enemyX[i] + 4 >= carPos && enemyX[i] <= carPos + 3) {
+					return 1;
+				}
+			}
 		}
 	}
 	return 0;
 }
+
 void gameover(){
 	system("cls");
 	cout<<endl;
