@@ -39,7 +39,7 @@ int collision() {
         }
     }
     return 0; // No collision
-}
+ }
 ```
 
 #### ✅ Modified Version (Improved, Bounding Box Check)
@@ -59,37 +59,9 @@ int collision() {
             }
         }
     }
-    return 0; // No collision
-}
-###int collision() {
-    for (int i = 0; i < 2; i++) {
-        if (enemyFlag[i] == true) {
-            // Check vertical overlap with car
-            if (enemyY[i] + 4 >= 22 && enemyY[i] <= 25) {
-                // Check horizontal overlap with car
-                if (enemyX[i] + 4 >= carPos && enemyX[i] <= carPos + 3) {
-                    return 1; // Collision detected
-                }
-            }
-        }
-    }
-    return 0; // No collision
+    return 0; // No collision 
 }
 
-### int collision() {
-    for (int i = 0; i < 2; i++) {
-        if (enemyFlag[i] == true) {
-            // Check vertical overlap with car
-            if (enemyY[i] + 4 >= 22 && enemyY[i] <= 25) {
-                // Check horizontal overlap with car
-                if (enemyX[i] + 4 >= carPos && enemyX[i] <= carPos + 3) {
-                    return 1; // Collision detected
-                }
-            }
-        }
-    }
-    return 0; // No collision
-}
 
 ```
 #### We also have improved the enemy cars :
@@ -102,16 +74,8 @@ void drawEnemy(int ind){
 		shoxy(enemyX[ind], enemyY[ind]+2); cout<<"";
 		shoxy(enemyX[ind], enemyY[ind]+3); cout<<" ** ";
 	}
-}
+   }
 
-### void drawEnemy(int ind){
-	if( enemyFlag[ind] == true ){
-		shoxy(enemyX[ind], enemyY[ind]);   cout<<"";
-		shoxy(enemyX[ind], enemyY[ind]+1); cout<<" ** ";
-		shoxy(enemyX[ind], enemyY[ind]+2); cout<<"";
-		shoxy(enemyX[ind], enemyY[ind]+3); cout<<" ** ";
-	}
-}
 ```
 #### Updated version :
 ```cpp
@@ -122,15 +86,8 @@ void drawEnemy(int ind){
 		shoxy(enemyX[ind], enemyY[ind]+2); cout<<"****";
 		shoxy(enemyX[ind], enemyY[ind]+3); cout<<" ** ";
 	}
-}
-###void drawEnemy(int ind){
-	if( enemyFlag[ind] == true ){
-		shoxy(enemyX[ind], enemyY[ind]);   cout<<"****";
-		shoxy(enemyX[ind], enemyY[ind]+1); cout<<" ** ";
-		shoxy(enemyX[ind], enemyY[ind]+2); cout<<"****";
-		shoxy(enemyX[ind], enemyY[ind]+3); cout<<" ** ";
-	}
-}
+   }
+
 ```
 
 
