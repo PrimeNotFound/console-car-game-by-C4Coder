@@ -12,7 +12,7 @@ This is a classic terminal-based car racing game made using C++. It's a simple b
 
 ---
 
-## 🔧 Requirements
+### 🔧 Requirements
 
 - Windows OS
 - A C++ compiler (like `g++` )
@@ -20,11 +20,11 @@ This is a classic terminal-based car racing game made using C++. It's a simple b
 
 ---
 
-## ▶️ Controls
+### ▶️ Controls
 
 - `A` → Move car to the left  
 - `D` → Move car to the right  
-- `ESC` → Quit the game
+- `ESC` → Quit The Game
 
 ---
 ### 🧠 Collision Detection Logic
@@ -63,7 +63,7 @@ int collision() {
 }
 
 ```
-#### We also have improved the enemy cars:
+#### We also have improved the enemy cars :
 #### Older version :
 ```cpp
 void drawEnemy(int ind){
@@ -88,7 +88,7 @@ void drawEnemy(int ind){
 ```
 
 
-## 🔄 Versions Overview
+### 🔄 Versions Overview
 
 There are **two versions** of this game:  
 - 🎯 **Original Version** (simple and functional)  
@@ -98,14 +98,14 @@ There are **two versions** of this game:
 
 | Feature                     | Original Version                          | Modified Version                          |
 |----------------------------|--------------------------------------------|--------------------------------------------|
-| **Enemy Car Drawing**      | 2-line enemy (`" ** "`, `" ** "`)         | Full 4-line enemy (`"****"`, `" ** "`, `"****"`, `" ** "`) |
+| **Enemy Car Drawing**      | 2-line enemy (`" ** "`, `" ** "`)          | Full 4-line enemy (`"****"`, `" ** "`, `"****"`, `" ** "`) |
 | **Collision Detection**    | Only checks `enemy[0]`, basic logic        | Checks both `enemy[0]` & `enemy[1]` with bounding box |
 | **Border Characters**      | `±` character used                        | Classic `#` character used                 |
 | **Visual Appearance**      | Lighter and simpler                       | More detailed and immersive                |
 | **Difficulty**             | Easier (fewer enemies, less accurate hits)| More challenging (accurate collisions + 2 enemies) |
 | **Code Logic**             | Simpler, beginner-friendly                | Cleaner structure, more advanced logic     |
 | **Enemy Activation**       | Only activates `enemy[1]` later           | Same logic, but smoother transitions       |
-| **Gameplay Feedback**      | Basic                                    | Enhanced with improved visuals and collision checks |
+| **Gameplay Feedback**      | Basic                                     | Enhanced with improved visuals and collision checks |
 
 ---
 
@@ -117,8 +117,8 @@ There are **two versions** of this game:
 g++ car_game.cpp -o car_game
 ```
 
-## 📸 Screenshots
-#### We got a very poitive response from the owner hello-shohanur :
+### 📸 Screenshots
+#### We got a very poitive response from the real owner hello-shohanur :
 ![Screenshot 2025-04-16 010249](https://github.com/user-attachments/assets/0b5bb377-b5ab-491e-b73e-974e50170118)
 <br> </br>
 #### Gameplay of the older version :
