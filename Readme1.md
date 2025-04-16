@@ -126,7 +126,7 @@ g++ car_game.cpp -o car_game
 ![Screenshot 2025-04-16 133018](https://github.com/user-attachments/assets/73d54892-97aa-4914-b341-a5873d078a29)
 <br> </br>
 #### Gameplay of the updated version :
-
+![Screenshot 2025-04-16 133757](https://github.com/user-attachments/assets/40f9fd08-ada9-43fa-a932-a1e0888a5cd8)
 ---
 
 ## 🤝 Contributions
@@ -135,11 +135,6 @@ Feel free to fork, play around, or even improve the game logic! Add obstacles, c
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## 💡 Future Ideas
 
