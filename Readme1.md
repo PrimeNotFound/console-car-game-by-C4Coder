@@ -15,7 +15,7 @@ This is a classic terminal-based car racing game made using C++. It's a simple b
 ## 🔧 Requirements
 
 - Windows OS
-- A C++ compiler (like `g++` or MSVC)
+- A C++ compiler (like `g++` )
 - Windows-compatible console (uses `windows.h`, `conio.h`, etc.)
 
 ---
@@ -129,11 +129,6 @@ g++ car_game.cpp -o car_game
 ![Screenshot 2025-04-16 133757](https://github.com/user-attachments/assets/40f9fd08-ada9-43fa-a932-a1e0888a5cd8)
 ---
 
-## 🤝 Contributions
-
-Feel free to fork, play around, or even improve the game logic! Add obstacles, change enemy patterns, or implement power-ups — up to you!
-
----
 
 
 ## 💡 Future Ideas
@@ -143,3 +138,17 @@ Feel free to fork, play around, or even improve the game logic! Add obstacles, c
 - Difficulty levels
 - Cross-platform support using `ncurses` or SDL
 
+
+## 🤝 Contributions
+
+### Devoloped by hello-shohanur
+
+### Improved by C4Coders
+#### Madhav Bhatt - 202401030
+#### Sumit Gauswami - 202401055
+#### Himanshu Gohel - 202401063
+#### Sahil Gondaliya - 202401058
+
+Feel free to fork, play around, or even improve the game logic! Add obstacles, change enemy patterns, or implement power-ups — up to you!
+
+---
