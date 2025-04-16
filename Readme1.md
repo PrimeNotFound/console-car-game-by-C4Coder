@@ -151,13 +151,7 @@ g++ car_game.cpp -o car_game
 #### Sumit Gauswami  - 202401055 
 #### Himanshu Gohel  - 202401063 
 #### Sahil Gondaliya - 202401058 
-
-
-...### Improved by C4Coders
-#### Madhav Bhatt    - 202401030 
-#### Sumit Gauswami  - 202401055 
-#### Himanshu Gohel  - 202401063 
-#### Sahil Gondaliya - 202401058 
+ 
 Feel free to fork, play around, or even improve the game logic! Add obstacles, change enemy patterns, or implement power-ups — up to you!
 
 ---
