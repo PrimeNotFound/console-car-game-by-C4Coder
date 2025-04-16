@@ -63,6 +63,29 @@ int collision() {
 }
 
 ```
+#### We also have improved the enemy cars:
+#### Older version :
+```cpp
+void drawEnemy(int ind){
+	if( enemyFlag[ind] == true ){
+		shoxy(enemyX[ind], enemyY[ind]);   cout<<"";
+		shoxy(enemyX[ind], enemyY[ind]+1); cout<<" ** ";
+		shoxy(enemyX[ind], enemyY[ind]+2); cout<<"";
+		shoxy(enemyX[ind], enemyY[ind]+3); cout<<" ** ";
+	}
+}
+```
+#### Updated version :
+```cpp
+void drawEnemy(int ind){
+	if( enemyFlag[ind] == true ){
+		shoxy(enemyX[ind], enemyY[ind]);   cout<<"****";
+		shoxy(enemyX[ind], enemyY[ind]+1); cout<<" ** ";
+		shoxy(enemyX[ind], enemyY[ind]+2); cout<<"****";
+		shoxy(enemyX[ind], enemyY[ind]+3); cout<<" ** ";
+	}
+}
+```
 
 
 ## 🔄 Versions Overview
@@ -95,8 +118,10 @@ g++ car_game.cpp -o car_game
 ```
 
 ## 📸 Screenshots
-#### We got a very poitive response from the owner :
+#### We got a very poitive response from the owner hello-shohanur :
 ![Screenshot 2025-04-16 010249](https://github.com/user-attachments/assets/0b5bb377-b5ab-491e-b73e-974e50170118)
+
+#### Gameplay of the older version :
 
 
 
