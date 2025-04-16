@@ -120,10 +120,12 @@ g++ car_game.cpp -o car_game
 ## 📸 Screenshots
 #### We got a very poitive response from the owner hello-shohanur :
 ![Screenshot 2025-04-16 010249](https://github.com/user-attachments/assets/0b5bb377-b5ab-491e-b73e-974e50170118)
-
+<br> </br>
 #### Gameplay of the older version :
 
-
+![Screenshot 2025-04-16 133018](https://github.com/user-attachments/assets/73d54892-97aa-4914-b341-a5873d078a29)
+<br> </br>
+#### Gameplay of the updated version :
 
 ---
 
