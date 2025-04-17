@@ -139,7 +139,7 @@ g++ car_game.cpp -o car_game
 - Add soundtrack using `PlaySound`
 - Support for more lanes / cars
 - Difficulty levels
-- Cross-platform support using `ncurses` or SDL
+- Cross-platform support using `ncurses` 
 
 
 ## 🤝 Contributions
